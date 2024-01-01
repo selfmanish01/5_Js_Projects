@@ -1,0 +1,36 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #efeaea;
+    text-align: center;
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #000000d2;
+    font-size: 18px;
+    margin-bottom: 20px;
+    display: block;
+}
+
+#clock {
+    font-size: 36px;
+    color: #333;
+    margin-top: 20px;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+#clock {
+    animation: fadeIn 1s ease-in-out;
+}

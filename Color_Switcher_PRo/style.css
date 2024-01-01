@@ -1,0 +1,63 @@
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    transition: background-color 0.5s ease;
+}
+
+nav {
+    background-color: #333;
+    padding: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+h1 {
+    color: #2196F3;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#start {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+}
+
+#stop {
+    background-color: #F44336;
+    color: #fff;
+    border: none;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 24px;
+    }
+
+    button {
+        font-size: 14px;
+    }
+}
